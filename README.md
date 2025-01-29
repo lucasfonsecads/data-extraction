@@ -1,3 +1,5 @@
+
+[![.github/workflows/release.yml](https://github.com/lucasfonsecads/data-extraction/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/lucasfonsecads/data-extraction/actions/workflows/release.yml)
 # AWS ETL Project
 ## Overview
 This project extracts, transforms, and loads (ETL) data into an AWS-based datalake. It includes linting, tests, containerization, and infrastructure-as-code with Terraform.
