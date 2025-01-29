@@ -22,3 +22,9 @@ terraform-init:
 
 terraform-apply:
 	cd infrastructure && terraform apply -auto-approve
+
+auto-tag:
+	git fetch --tags
+	VERSION=$(git tag --sort=-v:refname | head -n 1 | awk -F. '{print $1"."$2"."$3+1}')
+	git tag VERSION
+	git push origin VERSION
