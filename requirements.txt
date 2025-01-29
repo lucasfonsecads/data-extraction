@@ -1,0 +1,8 @@
+pandas
+pyarrow
+pytest
+flake8
+boto3  # AWS SDK for Python
+awscli  # AWS CLI
+pyyaml  # YAML parsing for configuration
+terraform  # Terraform wrapper
